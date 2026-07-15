@@ -36,6 +36,7 @@ export class App {
       children: [
         { label: '課程 Course', icon: 'pi pi-book', route: '/courses' },
         { label: '課程群組 CourseGroup', icon: 'pi pi-folder', route: '/course-groups' },
+        { label: '原廠 Partner', icon: 'pi pi-building', route: '/partners' },
       ],
     },
     { label: '說明會 Seminar', icon: 'pi pi-comments', children: [] },
@@ -50,7 +51,7 @@ export class App {
       children: [
         { label: '角色 AppRole', icon: 'pi pi-id-card', route: '/app-roles' },
         { label: '發布狀態 PublishStatus', icon: 'pi pi-flag', route: '/publish-statuses' },
-        { label: '使用者 AppUser', icon: 'pi pi-user' },
+        { label: '使用者 AppUser', icon: 'pi pi-user', route: '/app-users' },
       ],
     },
   ]);
